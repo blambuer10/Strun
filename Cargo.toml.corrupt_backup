@@ -1,0 +1,13 @@
+[package]
+name = "strun"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "strun"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+solana-program = "1.16.14"

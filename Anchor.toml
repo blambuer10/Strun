@@ -1,0 +1,8 @@
+[programs.localnet]
+strun = "14QZkEhSgwPK3cWqHeSkgpGBscibYuEWyJ1BVEGJqfbC"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+[toolchain]
+anchor_version = "0.32.1"
