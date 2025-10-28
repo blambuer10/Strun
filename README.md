@@ -3,9 +3,9 @@
 > STRUN transforms real-world movement into verified on-chain rewards.  
 > Run, complete AI-generated tasks, earn XP & SOL, and mint your routes as collectible Land NFTs.
 
----
 
- 🚀 Overview
+
+⛳️  Overview
 
 STRUN is a move-to-earn platform built on **Solana**, combining **AI**, GPS tracking**, and **blockchain verification** to reward real physical activity with tangible value.
 
@@ -29,7 +29,7 @@ STRUN builds a gamified ecosystem where:
 - Each activity becomes a verifiable on-chain record  
 - Social features drive long-term community engagement  
 
-By combining **AI**, GPS tracking**, and **on-chain verification**, STRUN ensures authenticity and creates fun, meaningful incentives.
+By combining AI, GPS tracking**, and **on-chain verification, STRUN ensures authenticity and creates fun, meaningful incentives.
 
 
 
