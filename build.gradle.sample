@@ -1,0 +1,23 @@
+// Sample build.gradle for signing configuration
+// This is a reference for when you add Android platform with Capacitor
+
+android {
+    signingConfigs {
+        release {
+            if (System.getenv("STRUN_RELEASE_STORE_FILE")) {
+                storeFile file(System.getenv("STRUN_RELEASE_STORE_FILE"))
+                storePassword System.getenv("STRUN_RELEASE_STORE_PASSWORD")
+                keyAlias System.getenv("STRUN_RELEASE_KEY_ALIAS")
+                keyPassword System.getenv("STRUN_RELEASE_KEY_PASSWORD")
+            }
+        }
+    }
+    
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
