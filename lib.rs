@@ -3,7 +3,7 @@ use anchor_lang::solana_program::{ed25519_program, sysvar::instructions as ix_sy
 use anchor_spl::token::{self, Mint, Token, TokenAccount, Transfer};
 use std::convert::TryInto;
 
-declare_id!("14QZkEhSgwPK3cWqHeSkgpGBscibYuEWyJ1BVEGJqfbC"); 
+declare_id!("9qpcky7wTGD3VHMMzVdaG2G2WrEi8SgpmVhhbyzJG8Mf"); 
 
 #[program]
 pub mod strun {
